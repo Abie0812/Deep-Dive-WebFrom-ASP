@@ -2,7 +2,9 @@
 Learn ASP.NET
 
 1. Apa extension file WebForm file? 
-=> setiap WebForm memiliki sebuah extension ".aspx"
+```
+setiap WebForm memiliki sebuah extension ".aspx"
+```
 
 2. Apa default action attribute untuk form tag dari sebuah Webform?
 => Sebuah WebForm tidak memiliki action attribute dan ia selalu melakukan submit dirinya sendiri. Bahkan
