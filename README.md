@@ -29,7 +29,9 @@ HTML Controls diperlukan untuk membuat elemen-elemen ini dapat diprogram dengan 
 ```
 
 6. Apa yang menterjemahkan sebuah server side control dalam browser>
-```Setiap server side control menterjemahkan HTML output ke web browser```
+```
+Setiap server side control menterjemahkan HTML output ke web browser
+```
 
 7. Apa perbedaan antara Server Controls dan HTML Controls?
 ```
@@ -58,4 +60,14 @@ Web Server Controls adalah special ASP.NET tags yang dipahami oleh ASP.NET serve
 - CheckboxList: dapat membuat <input type="checkbox"> untuk setiap ListItem.
 - RadioButtonList: dapat membuat <input type="radio"> untuk setiap ListItem.
 - FileUpload: dapat membuat <input type="file"...>
+```
+
+9. Apa itu AutoPostBack dalam ASP.NET?
+```
+AutoPostBack adalah sebuah property dari server controls, jika "AutoPostBack" propertinya adalah "True", maka akan bertanggung jawab untuk mengirimkan Form ke server.
+```
+
+10. Apa itu IsPostBack?
+```
+IsPostBack adalah properti yang digunakan untuk mengetahui apakah halaman itu direquest secara langsung atau tidak. Ketika permintaan/request browser untuk halaman secara langsung maka IsPostBack adalah False, sedangkan ketika Form diposting/disubmit, maka IsPostBack adalah True.
 ```
