@@ -17,3 +17,6 @@ Learn ASP.NET
 ```- HTML Server Controls - Traditional HTML tags - System.Web.UI.HTMLControls:
 HTML Controls diperlukan untuk membuat elemen-elemen ini dapat diprogram dengan menambahkan attribute runat="server" ke elemen HTML. Jika yang dibutuhkan hanya untuk melakukan control di client side menggunakan JavaScript dan tidak memiliki code yang akan dieksekusi pada server maka lebih baik menggunakan HTML Control. Web Server Control tidak mesti selalu digunakan karena sangat dinamis, powerful dan juga dapat meningkatkan fungsionalitas. Contoh: <input type="text" ID=id" runat="server" .......>
 - Web Server Controls adalah special ASP.NET tags yang hanya dapat dipahami oleh ASP.NET Server. Semua controls ini berada di bawah namespace - System.Web.UI.WebControls.```
+
+6. Apa yang menterjemahkan sebuah server side control dalam browser>
+```Setiap server side control menterjemahkan HTML output ke web browser```
